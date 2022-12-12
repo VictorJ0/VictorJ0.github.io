@@ -1,0 +1,177 @@
+html {
+  font-size: 62.5%;
+  font-family: arial;
+}
+ body {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 38em;
+  margin: auto;
+  color: #126fe9;
+  background-color: #000000;
+  padding: 15px;
+}
+@media (max-width: 684px) {
+ body {
+    font-size: 1.53rem;
+  }
+}
+@media (max-width: 382px) {
+ body {
+    font-size: 1.35rem;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 700;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+h1 {
+  font-size: 2.35em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.25em;
+}
+h6 {
+  font-size: 1em;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: serif;
+}
+body {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  /* max-width: 38em; */
+  /* margin: auto; */
+  /* color: #4a4a4a; */
+  background-color: #f9f9f9;
+  /* padding: 13px; */
+  margin: 0;    
+  padding: 0;    
+  max-width: inherit;    
+  background: #fff;    
+  color: #4a4a4a;
+}
+@media (max-width: 684px) {
+ body {
+    font-size: 1.53rem;
+  }
+}
+@media (max-width: 382px) {
+ body {
+    font-size: 1.35rem;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 700;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+h1 {
+  font-size: 2.35em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.25em;
+}
+h6 {
+  font-size: 1em;
+}
+
+header, footer {    
+  background: rgb(148,219,233);
+  background: linear-gradient(356deg, rgba(148,219,233,1) 0%, rgba(0,0,0,0.9850315126050421) 100%);   
+}
+nav {    
+  background: rgb(148,219,233);
+background: linear-gradient(0deg, rgba(148,219,233,1) 0%, rgba(0,0,0,1) 100%);    
+}
+main {    
+background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgb(38, 71, 143) 98.4% ); 
+}
+aside {    
+  background-image: linear-gradient( 94.3deg,  rgba(64,198,238,1) 55.2%, rgba(64,198,238,1) 55.2% );   
+}
+
+/* LAYOUT BASEADO EM CSS GRID LAYOUT */
+body {    
+    display: grid;    
+    min-height: 100vh;    
+    grid-template-columns: 200px 1fr 150px;    
+    grid-template-rows: min-content 1fr min-content;    
+  }
+  header {    
+    grid-row: 1;    
+    grid-column: 1 / 4;    
+  }
+  nav {    
+    grid-row: 2;    
+    grid-column: 1 / 2;    
+    padding: 0 10px;    
+  }
+  main {    
+    grid-row: 2;    
+    grid-column: 2 / 3;    
+    padding: 0 20px;    
+  }
+  aside {    
+    grid-row: 2;    
+    grid-column: 3 / 4;    
+    padding: 0 10px;    
+  }
+  footer {    
+    grid-row: 5;    
+    grid-column: 1 / 4;    
+  }
+  <!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container w3-teal">
+  <h1>Header</h1>
+</div>
+
+<div class="w3-container">
+  <p>The w3-container class can be used to display headers.</p>
+</div>
+
+</body>
+</html> 
